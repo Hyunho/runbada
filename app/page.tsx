@@ -59,7 +59,7 @@ function Marathon() {
           </div>
           <ul role="list" className="divide-y divide-gray-100">
             {directory[letter].map((person) => (
-              <li key={person.email} className="flex gap-x-4 px-3 py-5">
+              <li key={person.id} className="flex gap-x-4 px-3 py-5">
                 <img className="h-12 w-12 flex-none rounded-full bg-gray-50" src={person.imageUrl} alt="" />
                 <div className="min-w-0">
                   <p className="text-sm font-semibold leading-6 text-gray-900">{person.name}</p>
